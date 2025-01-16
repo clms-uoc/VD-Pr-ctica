@@ -1,0 +1,86 @@
+Country,grade_fra,route_count,color_intensity
+Australia,5,5,5
+Australia,5a,9,9
+Australia,5a+,7,7
+Australia,5b,9,9
+Australia,5b+,9,9
+Australia,5c,11,11
+Australia,5c+,9,9
+Australia,6,20,20
+Australia,6a,19,19
+Australia,6a+,9,9
+Australia,6a+/6b,19,19
+Australia,6a/+,21,21
+Australia,6b,14,14
+Australia,6b+,28,28
+Australia,6b+/6c,12,12
+Australia,6b/+,29,29
+Australia,6c,8,8
+Australia,6c+,9,9
+Australia,6c+/7a,15,15
+Australia,6c/+,51,51
+Australia,7a,74,74
+Australia,7a+,75,75
+Australia,7a+/7b,19,19
+Australia,7a/+,21,21
+Australia,7b,77,77
+Australia,7b+,56,56
+Australia,7b+/7c,22,22
+Australia,7b/+,29,29
+Australia,7c,36,36
+Australia,7c+,30,30
+Australia,7c+/8a,13,13
+Australia,7c/+,20,20
+Australia,8a,3,3
+Australia,8a+,19,19
+Australia,8a+/8b,19,19
+Australia,8a/+,18,18
+Australia,8b,8,8
+Australia,8b+,7,7
+Australia,8b+/8c,12,12
+Australia,8b/+,17,17
+Australia,8c,3,3
+Australia,8c+,1,1
+Australia,8c+/9a,1,1
+Australia,8c/+,7,7
+New Zealand,5,4,4
+New Zealand,5a,4,4
+New Zealand,5a+,14,14
+New Zealand,5b,7,7
+New Zealand,5b+,12,12
+New Zealand,5c,8,8
+New Zealand,5c+,13,13
+New Zealand,6,11,11
+New Zealand,6a,13,13
+New Zealand,6a+,1,1
+New Zealand,6a+/6b,14,14
+New Zealand,6a/+,8,8
+New Zealand,6b,6,6
+New Zealand,6b+,8,8
+New Zealand,6b+/6c,9,9
+New Zealand,6b/+,8,8
+New Zealand,6c,4,4
+New Zealand,6c+,4,4
+New Zealand,6c+/7a,3,3
+New Zealand,6c/+,17,17
+New Zealand,7a,29,29
+New Zealand,7a+,36,36
+New Zealand,7a+/7b,13,13
+New Zealand,7a/+,13,13
+New Zealand,7b,19,19
+New Zealand,7b+,17,17
+New Zealand,7b+/7c,11,11
+New Zealand,7b/+,12,12
+New Zealand,7c,10,10
+New Zealand,7c+,12,12
+New Zealand,7c+/8a,2,2
+New Zealand,7c/+,8,8
+New Zealand,8a,1,1
+New Zealand,8a+,3,3
+New Zealand,8a+/8b,3,3
+New Zealand,8a/+,7,7
+New Zealand,8b,3,3
+New Zealand,8b+,1,1
+New Zealand,8b+/8c,1,1
+New Zealand,8b/+,1,1
+New Zealand,8c/+,1,1

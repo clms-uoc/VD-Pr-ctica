@@ -1,0 +1,1556 @@
+Country,grade_fra,route_count,color_intensity
+Morocco,5c+,1,1
+Morocco,6,2,2
+Morocco,6a,2,2
+Morocco,6a+,1,1
+Morocco,6a+/6b,6,6
+Morocco,6a/+,3,3
+Morocco,6b+,1,1
+Morocco,6b/+,1,1
+Morocco,7a,1,1
+Morocco,7a+,4,4
+Morocco,7a+/7b,4,4
+Morocco,7b,2,2
+South Africa,5,16,16
+South Africa,5a,23,23
+South Africa,5a+,19,19
+South Africa,5b,25,25
+South Africa,5b+,30,30
+South Africa,5c,12,12
+South Africa,5c+,19,19
+South Africa,6,25,25
+South Africa,6a,15,15
+South Africa,6a+,15,15
+South Africa,6a+/6b,39,39
+South Africa,6a/+,35,35
+South Africa,6b,11,11
+South Africa,6b+,16,16
+South Africa,6b+/6c,39,39
+South Africa,6b/+,42,42
+South Africa,6c,16,16
+South Africa,6c+,14,14
+South Africa,6c+/7a,13,13
+South Africa,6c/+,33,33
+South Africa,7a,33,33
+South Africa,7a+,31,31
+South Africa,7a+/7b,10,10
+South Africa,7a/+,24,24
+South Africa,7b,20,20
+South Africa,7b+,25,25
+South Africa,7b+/7c,9,9
+South Africa,7b/+,20,20
+South Africa,7c,16,16
+South Africa,7c+,9,9
+South Africa,7c+/8a,5,5
+South Africa,7c/+,8,8
+South Africa,8a+,7,7
+South Africa,8a+/8b,10,10
+South Africa,8a/+,7,7
+South Africa,8b,3,3
+South Africa,8b+,2,2
+South Africa,8b+/8c,1,1
+South Africa,8b/+,3,3
+South Africa,8c/+,1,1
+China,5b+,1,1
+China,6,2,2
+China,6a,1,1
+China,6a+,1,1
+China,6a+/6b,3,3
+China,6a/+,3,3
+China,6b,2,2
+China,6b+,1,1
+China,6b+/6c,6,6
+China,6b/+,6,6
+China,6c,2,2
+China,6c/+,5,5
+China,7a,9,9
+China,7a+,7,7
+China,7a/+,1,1
+China,7b,11,11
+China,7b+,3,3
+China,7b+/7c,1,1
+China,7b/+,2,2
+China,7c,7,7
+China,7c+,8,8
+China,7c+/8a,3,3
+China,7c/+,2,2
+China,8a,3,3
+China,8a+,6,6
+China,8a+/8b,2,2
+China,8a/+,4,4
+China,8b,1,1
+China,8b+,2,2
+China,8b/+,1,1
+China,8c+/9a,1,1
+India,6c+/7a,1,1
+India,7c+/8a,1,1
+Israel,5,1,1
+Israel,5b+,1,1
+Israel,6,5,5
+Israel,6a,1,1
+Israel,6a+,1,1
+Israel,6a+/6b,3,3
+Israel,6a/+,2,2
+Israel,6b,1,1
+Israel,6b+,1,1
+Israel,6b+/6c,5,5
+Israel,6b/+,3,3
+Israel,6c,2,2
+Israel,6c+,1,1
+Israel,6c+/7a,4,4
+Israel,6c/+,1,1
+Israel,7a,7,7
+Israel,7a+,9,9
+Israel,7a+/7b,2,2
+Israel,7a/+,1,1
+Israel,7b,2,2
+Israel,7b+,2,2
+Israel,7b+/7c,2,2
+Israel,7b/+,1,1
+Israel,7c,3,3
+Israel,7c+,4,4
+Israel,7c+/8a,1,1
+Israel,8a,3,3
+Israel,8a+,2,2
+Israel,8a+/8b,3,3
+Israel,8a/+,6,6
+Israel,8b,1,1
+Israel,8b+,2,2
+Israel,8c/+,1,1
+Jordan,5b+,1,1
+Jordan,5c,1,1
+Jordan,6a+/6b,2,2
+Jordan,7a,1,1
+Jordan,7a+/7b,1,1
+Philippines,6c,1,1
+Russia,5,1,1
+Russia,5a+,3,3
+Russia,5b+,15,15
+Russia,5c,3,3
+Russia,5c+,1,1
+Russia,6,19,19
+Russia,6a,5,5
+Russia,6a+,14,14
+Russia,6a+/6b,23,23
+Russia,6a/+,16,16
+Russia,6b,5,5
+Russia,6b+,9,9
+Russia,6b+/6c,21,21
+Russia,6b/+,14,14
+Russia,6c,10,10
+Russia,6c+,6,6
+Russia,6c+/7a,3,3
+Russia,6c/+,11,11
+Russia,7a,12,12
+Russia,7a+,17,17
+Russia,7a+/7b,5,5
+Russia,7a/+,7,7
+Russia,7b,13,13
+Russia,7b+,12,12
+Russia,7b+/7c,4,4
+Russia,7b/+,6,6
+Russia,7c,9,9
+Russia,7c+,4,4
+Russia,7c+/8a,1,1
+Russia,7c/+,6,6
+Russia,8a,1,1
+Russia,8a+,2,2
+Russia,8a+/8b,3,3
+Russia,8a/+,7,7
+Russia,8b,1,1
+Russia,8b+/8c,1,1
+Taiwan,6b+/6c,2,2
+Taiwan,7b+,1,1
+Thailand,5,1,1
+Thailand,5a+,3,3
+Thailand,5b,5,5
+Thailand,5b+,5,5
+Thailand,6,11,11
+Thailand,6a,10,10
+Thailand,6a+,13,13
+Thailand,6a+/6b,42,42
+Thailand,6a/+,20,20
+Thailand,6b,9,9
+Thailand,6b+,13,13
+Thailand,6b+/6c,21,21
+Thailand,6b/+,24,24
+Thailand,6c,14,14
+Thailand,6c+,8,8
+Thailand,6c+/7a,5,5
+Thailand,6c/+,21,21
+Thailand,7a,31,31
+Thailand,7a+,35,35
+Thailand,7a+/7b,12,12
+Thailand,7a/+,12,12
+Thailand,7b,26,26
+Thailand,7b+,8,8
+Thailand,7b+/7c,4,4
+Thailand,7b/+,14,14
+Thailand,7c,15,15
+Thailand,7c+,7,7
+Thailand,7c+/8a,9,9
+Thailand,7c/+,10,10
+Thailand,8a,3,3
+Thailand,8a+,1,1
+Thailand,8a+/8b,9,9
+Thailand,8a/+,9,9
+Thailand,8b,2,2
+Thailand,8b+,1,1
+Thailand,8b+/8c,4,4
+Thailand,8b/+,4,4
+Thailand,8c,2,2
+Thailand,8c+,1,1
+Vietnam,6a,1,1
+Vietnam,6a+/6b,1,1
+Vietnam,6a/+,1,1
+Vietnam,6b+,1,1
+Vietnam,6b+/6c,1,1
+Vietnam,6c,1,1
+Vietnam,6c+/7a,1,1
+Vietnam,6c/+,1,1
+Vietnam,7a+,1,1
+Vietnam,7b,1,1
+Andorra,6c,1,1
+Andorra,7a,2,2
+Andorra,7a/+,1,1
+Austria,5,16,16
+Austria,5a,14,14
+Austria,5a+,32,32
+Austria,5b,25,25
+Austria,5b+,64,64
+Austria,5c,17,17
+Austria,5c+,15,15
+Austria,6,107,107
+Austria,6a,45,45
+Austria,6a+,51,51
+Austria,6a+/6b,123,123
+Austria,6a/+,129,129
+Austria,6b,64,64
+Austria,6b+,57,57
+Austria,6b+/6c,101,101
+Austria,6b/+,88,88
+Austria,6c,50,50
+Austria,6c+,52,52
+Austria,6c+/7a,17,17
+Austria,6c/+,120,120
+Austria,7a,123,123
+Austria,7a+,73,73
+Austria,7a+/7b,52,52
+Austria,7a/+,74,74
+Austria,7b,84,84
+Austria,7b+,91,91
+Austria,7b+/7c,34,34
+Austria,7b/+,47,47
+Austria,7c,76,76
+Austria,7c+,59,59
+Austria,7c+/8a,26,26
+Austria,7c/+,41,41
+Austria,8a,11,11
+Austria,8a+,21,21
+Austria,8a+/8b,30,30
+Austria,8a/+,57,57
+Austria,8b,14,14
+Austria,8b+,9,9
+Austria,8b+/8c,14,14
+Austria,8b/+,14,14
+Austria,8c,6,6
+Austria,8c+,2,2
+Austria,8c+/9a,5,5
+Austria,8c/+,8,8
+Austria,9a+,1,1
+Belgium,5,13,13
+Belgium,5a,8,8
+Belgium,5a+,25,25
+Belgium,5b,8,8
+Belgium,5b+,32,32
+Belgium,5c,12,12
+Belgium,5c+,9,9
+Belgium,6,49,49
+Belgium,6a,18,18
+Belgium,6a+,16,16
+Belgium,6a+/6b,32,32
+Belgium,6a/+,29,29
+Belgium,6b,18,18
+Belgium,6b+,4,4
+Belgium,6b+/6c,20,20
+Belgium,6b/+,17,17
+Belgium,6c,11,11
+Belgium,6c+,9,9
+Belgium,6c+/7a,2,2
+Belgium,6c/+,7,7
+Belgium,7a,33,33
+Belgium,7a+,17,17
+Belgium,7a+/7b,13,13
+Belgium,7a/+,7,7
+Belgium,7b,12,12
+Belgium,7b+,7,7
+Belgium,7b+/7c,6,6
+Belgium,7b/+,9,9
+Belgium,7c,7,7
+Belgium,7c+,1,1
+Belgium,7c+/8a,7,7
+Belgium,7c/+,6,6
+Belgium,8a+,3,3
+Belgium,8a+/8b,2,2
+Belgium,8a/+,9,9
+Belgium,8b,3,3
+Belgium,8b+,1,1
+Belgium,8b+/8c,1,1
+Belgium,8b/+,3,3
+Bosnia and Herzegovina,6a+/6b,1,1
+Bosnia and Herzegovina,6c,1,1
+Bosnia and Herzegovina,6c+/7a,1,1
+Bulgaria,5,4,4
+Bulgaria,5a,1,1
+Bulgaria,5a+,6,6
+Bulgaria,5b,8,8
+Bulgaria,5b+,10,10
+Bulgaria,5c,7,7
+Bulgaria,5c+,9,9
+Bulgaria,6,26,26
+Bulgaria,6a,4,4
+Bulgaria,6a+,16,16
+Bulgaria,6a+/6b,26,26
+Bulgaria,6a/+,13,13
+Bulgaria,6b,10,10
+Bulgaria,6b+,8,8
+Bulgaria,6b+/6c,18,18
+Bulgaria,6b/+,23,23
+Bulgaria,6c,7,7
+Bulgaria,6c+,14,14
+Bulgaria,6c+/7a,11,11
+Bulgaria,6c/+,10,10
+Bulgaria,7a,19,19
+Bulgaria,7a+,14,14
+Bulgaria,7a+/7b,13,13
+Bulgaria,7a/+,12,12
+Bulgaria,7b,22,22
+Bulgaria,7b+,19,19
+Bulgaria,7b+/7c,11,11
+Bulgaria,7b/+,7,7
+Bulgaria,7c,15,15
+Bulgaria,7c+,8,8
+Bulgaria,7c+/8a,6,6
+Bulgaria,7c/+,12,12
+Bulgaria,8a,3,3
+Bulgaria,8a+,9,9
+Bulgaria,8a+/8b,5,5
+Bulgaria,8a/+,9,9
+Bulgaria,8b,4,4
+Bulgaria,8b+,2,2
+Bulgaria,8b+/8c,3,3
+Bulgaria,8b/+,9,9
+Croatia,5,20,20
+Croatia,5a,10,10
+Croatia,5a+,18,18
+Croatia,5b,11,11
+Croatia,5b+,36,36
+Croatia,5c,23,23
+Croatia,5c+,8,8
+Croatia,6,45,45
+Croatia,6a,39,39
+Croatia,6a+,31,31
+Croatia,6a+/6b,36,36
+Croatia,6a/+,30,30
+Croatia,6b,24,24
+Croatia,6b+,20,20
+Croatia,6b+/6c,37,37
+Croatia,6b/+,25,25
+Croatia,6c,15,15
+Croatia,6c+,21,21
+Croatia,6c+/7a,5,5
+Croatia,6c/+,19,19
+Croatia,7a,25,25
+Croatia,7a+,26,26
+Croatia,7a+/7b,19,19
+Croatia,7a/+,21,21
+Croatia,7b,30,30
+Croatia,7b+,14,14
+Croatia,7b+/7c,13,13
+Croatia,7b/+,22,22
+Croatia,7c,19,19
+Croatia,7c+,6,6
+Croatia,7c+/8a,5,5
+Croatia,7c/+,6,6
+Croatia,8a,2,2
+Croatia,8a+,1,1
+Croatia,8a+/8b,5,5
+Croatia,8a/+,10,10
+Croatia,8b,1,1
+Croatia,8b+,2,2
+Croatia,8b+/8c,2,2
+Croatia,8b/+,5,5
+Denmark,5,3,3
+Denmark,5a+,2,2
+Denmark,5b,1,1
+Denmark,5b+,2,2
+Denmark,6,3,3
+Denmark,6a+,1,1
+Denmark,6a+/6b,3,3
+Denmark,6b/+,1,1
+Denmark,6c+,1,1
+Denmark,7a,1,1
+Denmark,7a+,2,2
+Finland,5,2,2
+Finland,6,2,2
+Finland,6a,1,1
+Finland,6a+/6b,1,1
+Finland,6a/+,1,1
+Finland,6b+/6c,1,1
+France,5,13,13
+France,5a,6,6
+France,5a+,36,36
+France,5b,10,10
+France,5b+,74,74
+France,5c,33,33
+France,5c+,12,12
+France,6,119,119
+France,6a,58,58
+France,6a+,44,44
+France,6a+/6b,136,136
+France,6a/+,114,114
+France,6b,63,63
+France,6b+,80,80
+France,6b+/6c,179,179
+France,6b/+,126,126
+France,6c,90,90
+France,6c+,63,63
+France,6c+/7a,39,39
+France,6c/+,105,105
+France,7a,294,294
+France,7a+,245,245
+France,7a+/7b,132,132
+France,7a/+,147,147
+France,7b,258,258
+France,7b+,202,202
+France,7b+/7c,90,90
+France,7b/+,139,139
+France,7c,206,206
+France,7c+,141,141
+France,7c+/8a,96,96
+France,7c/+,103,103
+France,8a,39,39
+France,8a+,104,104
+France,8a+/8b,120,120
+France,8a/+,213,213
+France,8b,49,49
+France,8b+,24,24
+France,8b+/8c,46,46
+France,8b/+,85,85
+France,8c,16,16
+France,8c+,8,8
+France,8c+/9a,11,11
+France,8c/+,21,21
+France,9a,1,1
+France,9a+,3,3
+France,9a/+,3,3
+France,9b/+,2,2
+Germany,5,53,53
+Germany,5a,34,34
+Germany,5a+,62,62
+Germany,5b,38,38
+Germany,5b+,97,97
+Germany,5c,37,37
+Germany,5c+,50,50
+Germany,6,153,153
+Germany,6a,91,91
+Germany,6a+,108,108
+Germany,6a+/6b,178,178
+Germany,6a/+,158,158
+Germany,6b,94,94
+Germany,6b+,99,99
+Germany,6b+/6c,79,79
+Germany,6b/+,111,111
+Germany,6c,39,39
+Germany,6c+,97,97
+Germany,6c+/7a,26,26
+Germany,6c/+,178,178
+Germany,7a,181,181
+Germany,7a+,100,100
+Germany,7a+/7b,76,76
+Germany,7a/+,88,88
+Germany,7b,56,56
+Germany,7b+,129,129
+Germany,7b+/7c,45,45
+Germany,7b/+,34,34
+Germany,7c,92,92
+Germany,7c+,47,47
+Germany,7c+/8a,16,16
+Germany,7c/+,35,35
+Germany,8a,12,12
+Germany,8a+,17,17
+Germany,8a+/8b,31,31
+Germany,8a/+,38,38
+Germany,8b,19,19
+Germany,8b+,6,6
+Germany,8b+/8c,14,14
+Germany,8b/+,26,26
+Germany,8c,5,5
+Germany,8c+,2,2
+Germany,8c+/9a,4,4
+Germany,8c/+,12,12
+Germany,9a+/9b,1,1
+Greece,5,24,24
+Greece,5a,10,10
+Greece,5a+,30,30
+Greece,5b,20,20
+Greece,5b+,79,79
+Greece,5c,40,40
+Greece,5c+,13,13
+Greece,6,91,91
+Greece,6a,61,61
+Greece,6a+,76,76
+Greece,6a+/6b,119,119
+Greece,6a/+,115,115
+Greece,6b,76,76
+Greece,6b+,82,82
+Greece,6b+/6c,108,108
+Greece,6b/+,94,94
+Greece,6c,74,74
+Greece,6c+,43,43
+Greece,6c+/7a,32,32
+Greece,6c/+,86,86
+Greece,7a,94,94
+Greece,7a+,85,85
+Greece,7a+/7b,50,50
+Greece,7a/+,48,48
+Greece,7b,79,79
+Greece,7b+,64,64
+Greece,7b+/7c,36,36
+Greece,7b/+,40,40
+Greece,7c,67,67
+Greece,7c+,39,39
+Greece,7c+/8a,28,28
+Greece,7c/+,34,34
+Greece,8a,13,13
+Greece,8a+,19,19
+Greece,8a+/8b,27,27
+Greece,8a/+,42,42
+Greece,8b,11,11
+Greece,8b+,8,8
+Greece,8b+/8c,6,6
+Greece,8b/+,21,21
+Greece,8c,5,5
+Greece,8c+,1,1
+Greece,8c+/9a,2,2
+Greece,8c/+,1,1
+Hungary,5,5,5
+Hungary,5a+,4,4
+Hungary,5b,2,2
+Hungary,5b+,4,4
+Hungary,5c,3,3
+Hungary,5c+,2,2
+Hungary,6,9,9
+Hungary,6a,6,6
+Hungary,6a+,4,4
+Hungary,6a+/6b,8,8
+Hungary,6a/+,13,13
+Hungary,6b,4,4
+Hungary,6b+,1,1
+Hungary,6b+/6c,3,3
+Hungary,6b/+,5,5
+Hungary,6c,1,1
+Hungary,6c+,5,5
+Hungary,6c+/7a,5,5
+Hungary,6c/+,4,4
+Hungary,7a,5,5
+Hungary,7a+,3,3
+Hungary,7a+/7b,6,6
+Hungary,7a/+,4,4
+Hungary,7b,6,6
+Hungary,7b+,5,5
+Hungary,7b+/7c,6,6
+Hungary,7b/+,3,3
+Hungary,7c,9,9
+Hungary,7c+,1,1
+Hungary,7c+/8a,2,2
+Hungary,7c/+,4,4
+Hungary,8a+,2,2
+Hungary,8a+/8b,5,5
+Hungary,8b,3,3
+Hungary,8b+,1,1
+Hungary,8b+/8c,3,3
+Hungary,8b/+,6,6
+Hungary,8c/+,1,1
+Iceland,5a+,2,2
+Iceland,5b,1,1
+Iceland,5b+,3,3
+Iceland,5c,1,1
+Iceland,6,2,2
+Iceland,6a,1,1
+Iceland,6a+/6b,2,2
+Iceland,6b+,1,1
+Iceland,6b+/6c,2,2
+Iceland,6b/+,1,1
+Iceland,6c+,1,1
+Iceland,6c/+,1,1
+Iceland,7a,1,1
+Iceland,7a+/7b,2,2
+Iceland,7b,2,2
+Iceland,7b+,1,1
+Iceland,7b+/7c,2,2
+Italy,5,71,71
+Italy,5a,18,18
+Italy,5a+,100,100
+Italy,5b,41,41
+Italy,5b+,215,215
+Italy,5c,53,53
+Italy,5c+,50,50
+Italy,6,336,336
+Italy,6a,156,156
+Italy,6a+,169,169
+Italy,6a+/6b,380,380
+Italy,6a/+,349,349
+Italy,6b,210,210
+Italy,6b+,174,174
+Italy,6b+/6c,328,328
+Italy,6b/+,296,296
+Italy,6c,191,191
+Italy,6c+,118,118
+Italy,6c+/7a,68,68
+Italy,6c/+,238,238
+Italy,7a,430,430
+Italy,7a+,315,315
+Italy,7a+/7b,166,166
+Italy,7a/+,217,217
+Italy,7b,316,316
+Italy,7b+,231,231
+Italy,7b+/7c,100,100
+Italy,7b/+,124,124
+Italy,7c,207,207
+Italy,7c+,120,120
+Italy,7c+/8a,51,51
+Italy,7c/+,108,108
+Italy,8a,27,27
+Italy,8a+,59,59
+Italy,8a+/8b,69,69
+Italy,8a/+,179,179
+Italy,8b,32,32
+Italy,8b+,18,18
+Italy,8b+/8c,13,13
+Italy,8b/+,44,44
+Italy,8c,9,9
+Italy,8c+,4,4
+Italy,8c+/9a,5,5
+Italy,8c/+,12,12
+Italy,9a,1,1
+Italy,9a+,2,2
+Italy,9a+/9b,2,2
+Italy,9a/+,1,1
+Luxembourg,5b+,2,2
+Luxembourg,6a+/6b,1,1
+Luxembourg,6a/+,1,1
+Luxembourg,6b+,1,1
+Luxembourg,6b+/6c,1,1
+Luxembourg,6b/+,1,1
+Luxembourg,6c+/7a,2,2
+Luxembourg,6c/+,1,1
+Luxembourg,7a,4,4
+Luxembourg,7a+/7b,1,1
+Luxembourg,7b,3,3
+Luxembourg,7b+,3,3
+Luxembourg,7b/+,1,1
+Luxembourg,7c,3,3
+Luxembourg,7c+/8a,5,5
+Luxembourg,7c/+,2,2
+Luxembourg,8a+,1,1
+Luxembourg,8a+/8b,1,1
+Luxembourg,8a/+,1,1
+Luxembourg,8b/+,1,1
+Malta,5a+,1,1
+Malta,5b+,1,1
+Malta,5c+,1,1
+Malta,6,1,1
+Malta,6b+,2,2
+Malta,7a,1,1
+Malta,7a+,1,1
+Malta,7b,1,1
+Netherlands,6,1,1
+Netherlands,6a/+,1,1
+Netherlands,7a+,1,1
+Norway,5,27,27
+Norway,5a,11,11
+Norway,5a+,24,24
+Norway,5b,10,10
+Norway,5b+,34,34
+Norway,5c,9,9
+Norway,5c+,9,9
+Norway,6,44,44
+Norway,6a,11,11
+Norway,6a+,16,16
+Norway,6a+/6b,54,54
+Norway,6a/+,12,12
+Norway,6b,22,22
+Norway,6b+,28,28
+Norway,6b+/6c,92,92
+Norway,6b/+,76,76
+Norway,6c,26,26
+Norway,6c+,13,13
+Norway,6c+/7a,3,3
+Norway,6c/+,77,77
+Norway,7a,54,54
+Norway,7a+,30,30
+Norway,7a+/7b,8,8
+Norway,7a/+,19,19
+Norway,7b,51,51
+Norway,7b+,35,35
+Norway,7b+/7c,13,13
+Norway,7b/+,20,20
+Norway,7c,33,33
+Norway,7c+,26,26
+Norway,7c+/8a,6,6
+Norway,7c/+,15,15
+Norway,8a,3,3
+Norway,8a+,5,5
+Norway,8a+/8b,6,6
+Norway,8a/+,16,16
+Norway,8b,4,4
+Norway,8b+,2,2
+Norway,8b+/8c,1,1
+Norway,8b/+,11,11
+Norway,8c,2,2
+Norway,8c+,2,2
+Norway,8c+/9a,1,1
+Norway,8c/+,1,1
+Norway,9b/+,1,1
+Poland,5,42,42
+Poland,5a,62,62
+Poland,5a+,123,123
+Poland,5b,60,60
+Poland,5b+,155,155
+Poland,5c,44,44
+Poland,5c+,44,44
+Poland,6,245,245
+Poland,6a,124,124
+Poland,6a+,134,134
+Poland,6a+/6b,356,356
+Poland,6a/+,273,273
+Poland,6b,158,158
+Poland,6b+,164,164
+Poland,6b+/6c,261,261
+Poland,6b/+,302,302
+Poland,6c,120,120
+Poland,6c+,87,87
+Poland,6c+/7a,29,29
+Poland,6c/+,204,204
+Poland,7a,198,198
+Poland,7a+,140,140
+Poland,7a+/7b,94,94
+Poland,7a/+,104,104
+Poland,7b,130,130
+Poland,7b+,56,56
+Poland,7b+/7c,36,36
+Poland,7b/+,45,45
+Poland,7c,77,77
+Poland,7c+,91,91
+Poland,7c+/8a,20,20
+Poland,7c/+,27,27
+Poland,8a,10,10
+Poland,8a+,18,18
+Poland,8a+/8b,18,18
+Poland,8a/+,34,34
+Poland,8b,10,10
+Poland,8b+,17,17
+Poland,8b+/8c,9,9
+Poland,8b/+,14,14
+Poland,8c,2,2
+Poland,8c+,4,4
+Poland,8c/+,6,6
+Poland,9a,1,1
+Poland,9a/+,1,1
+Portugal,5,4,4
+Portugal,5a,6,6
+Portugal,5a+,15,15
+Portugal,5b,7,7
+Portugal,5b+,21,21
+Portugal,5c,12,12
+Portugal,5c+,3,3
+Portugal,6,40,40
+Portugal,6a,23,23
+Portugal,6a+,15,15
+Portugal,6a+/6b,33,33
+Portugal,6a/+,34,34
+Portugal,6b,14,14
+Portugal,6b+,14,14
+Portugal,6b+/6c,27,27
+Portugal,6b/+,29,29
+Portugal,6c,17,17
+Portugal,6c+,9,9
+Portugal,6c+/7a,4,4
+Portugal,6c/+,20,20
+Portugal,7a,38,38
+Portugal,7a+,27,27
+Portugal,7a+/7b,17,17
+Portugal,7a/+,12,12
+Portugal,7b,26,26
+Portugal,7b+,25,25
+Portugal,7b+/7c,20,20
+Portugal,7b/+,18,18
+Portugal,7c,13,13
+Portugal,7c+,14,14
+Portugal,7c+/8a,7,7
+Portugal,7c/+,10,10
+Portugal,8a,2,2
+Portugal,8a+,1,1
+Portugal,8a+/8b,1,1
+Portugal,8a/+,10,10
+Portugal,8b,2,2
+Portugal,8b+,1,1
+Russia,5,1,1
+Russia,5a+,3,3
+Russia,5b+,15,15
+Russia,5c,3,3
+Russia,5c+,1,1
+Russia,6,19,19
+Russia,6a,5,5
+Russia,6a+,14,14
+Russia,6a+/6b,23,23
+Russia,6a/+,16,16
+Russia,6b,5,5
+Russia,6b+,9,9
+Russia,6b+/6c,21,21
+Russia,6b/+,14,14
+Russia,6c,10,10
+Russia,6c+,6,6
+Russia,6c+/7a,3,3
+Russia,6c/+,11,11
+Russia,7a,12,12
+Russia,7a+,17,17
+Russia,7a+/7b,5,5
+Russia,7a/+,7,7
+Russia,7b,13,13
+Russia,7b+,12,12
+Russia,7b+/7c,4,4
+Russia,7b/+,6,6
+Russia,7c,9,9
+Russia,7c+,4,4
+Russia,7c+/8a,1,1
+Russia,7c/+,6,6
+Russia,8a,1,1
+Russia,8a+,2,2
+Russia,8a+/8b,3,3
+Russia,8a/+,7,7
+Russia,8b,1,1
+Russia,8b+/8c,1,1
+Serbia,5,4,4
+Serbia,5a,2,2
+Serbia,5a+,6,6
+Serbia,5b,1,1
+Serbia,5b+,8,8
+Serbia,5c,1,1
+Serbia,5c+,4,4
+Serbia,6,6,6
+Serbia,6a,1,1
+Serbia,6a+,3,3
+Serbia,6a+/6b,7,7
+Serbia,6a/+,6,6
+Serbia,6b,7,7
+Serbia,6b+,6,6
+Serbia,6b+/6c,4,4
+Serbia,6b/+,9,9
+Serbia,6c,1,1
+Serbia,6c+,3,3
+Serbia,6c+/7a,4,4
+Serbia,6c/+,10,10
+Serbia,7a,10,10
+Serbia,7a+,5,5
+Serbia,7a+/7b,6,6
+Serbia,7a/+,4,4
+Serbia,7b,6,6
+Serbia,7b+,6,6
+Serbia,7b+/7c,2,2
+Serbia,7b/+,4,4
+Serbia,7c,3,3
+Serbia,7c+,5,5
+Serbia,7c+/8a,1,1
+Serbia,7c/+,1,1
+Serbia,8a,1,1
+Serbia,8a+/8b,6,6
+Serbia,8a/+,4,4
+Serbia,8b,1,1
+Slovakia,5,1,1
+Slovakia,5a,1,1
+Slovakia,5a+,3,3
+Slovakia,5b,1,1
+Slovakia,5c+,2,2
+Slovakia,6,3,3
+Slovakia,6a,2,2
+Slovakia,6a+,2,2
+Slovakia,6a+/6b,7,7
+Slovakia,6a/+,4,4
+Slovakia,6b,2,2
+Slovakia,6b+/6c,1,1
+Slovakia,6b/+,2,2
+Slovakia,6c,1,1
+Slovakia,6c+,4,4
+Slovakia,6c/+,3,3
+Slovakia,7a,5,5
+Slovakia,7a+,3,3
+Slovakia,7a+/7b,2,2
+Slovakia,7a/+,1,1
+Slovakia,7b+,3,3
+Slovakia,7b/+,1,1
+Slovakia,7c,1,1
+Slovakia,7c+,1,1
+Slovakia,7c/+,1,1
+Slovakia,8a+,1,1
+Slovakia,8a+/8b,3,3
+Slovakia,8a/+,2,2
+Slovenia,5,10,10
+Slovenia,5a,11,11
+Slovenia,5a+,9,9
+Slovenia,5b,12,12
+Slovenia,5b+,26,26
+Slovenia,5c,13,13
+Slovenia,5c+,4,4
+Slovenia,6,33,33
+Slovenia,6a,25,25
+Slovenia,6a+,28,28
+Slovenia,6a+/6b,42,42
+Slovenia,6a/+,37,37
+Slovenia,6b,27,27
+Slovenia,6b+,23,23
+Slovenia,6b+/6c,40,40
+Slovenia,6b/+,37,37
+Slovenia,6c,29,29
+Slovenia,6c+,17,17
+Slovenia,6c+/7a,7,7
+Slovenia,6c/+,40,40
+Slovenia,7a,49,49
+Slovenia,7a+,39,39
+Slovenia,7a+/7b,27,27
+Slovenia,7a/+,30,30
+Slovenia,7b,35,35
+Slovenia,7b+,38,38
+Slovenia,7b+/7c,22,22
+Slovenia,7b/+,28,28
+Slovenia,7c,28,28
+Slovenia,7c+,21,21
+Slovenia,7c+/8a,11,11
+Slovenia,7c/+,15,15
+Slovenia,8a,8,8
+Slovenia,8a+,12,12
+Slovenia,8a+/8b,23,23
+Slovenia,8a/+,22,22
+Slovenia,8b,5,5
+Slovenia,8b+,13,13
+Slovenia,8b+/8c,10,10
+Slovenia,8b/+,17,17
+Slovenia,8c,5,5
+Slovenia,8c+,4,4
+Slovenia,8c+/9a,4,4
+Slovenia,8c/+,5,5
+Slovenia,9a,3,3
+Slovenia,9a+,2,2
+Spain,5,58,58
+Spain,5a,51,51
+Spain,5a+,224,224
+Spain,5b,119,119
+Spain,5b+,415,415
+Spain,5c,140,140
+Spain,5c+,82,82
+Spain,6,677,677
+Spain,6a,375,375
+Spain,6a+,370,370
+Spain,6a+/6b,737,737
+Spain,6a/+,681,681
+Spain,6b,446,446
+Spain,6b+,414,414
+Spain,6b+/6c,740,740
+Spain,6b/+,658,658
+Spain,6c,426,426
+Spain,6c+,288,288
+Spain,6c+/7a,172,172
+Spain,6c/+,526,526
+Spain,7a,1007,1007
+Spain,7a+,777,777
+Spain,7a+/7b,467,467
+Spain,7a/+,584,584
+Spain,7b,735,735
+Spain,7b+,627,627
+Spain,7b+/7c,325,325
+Spain,7b/+,442,442
+Spain,7c,463,463
+Spain,7c+,337,337
+Spain,7c+/8a,184,184
+Spain,7c/+,268,268
+Spain,8a,95,95
+Spain,8a+,220,220
+Spain,8a+/8b,225,225
+Spain,8a/+,424,424
+Spain,8b,120,120
+Spain,8b+,69,69
+Spain,8b+/8c,64,64
+Spain,8b/+,114,114
+Spain,8c,33,33
+Spain,8c+,20,20
+Spain,8c+/9a,27,27
+Spain,8c/+,42,42
+Spain,9a,7,7
+Spain,9a+,9,9
+Spain,9a+/9b,2,2
+Spain,9a/+,5,5
+Spain,9b,2,2
+Sweden,5,9,9
+Sweden,5a,6,6
+Sweden,5a+,22,22
+Sweden,5b,11,11
+Sweden,5b+,22,22
+Sweden,5c,9,9
+Sweden,5c+,5,5
+Sweden,6,27,27
+Sweden,6a,27,27
+Sweden,6a+,8,8
+Sweden,6a+/6b,28,28
+Sweden,6a/+,17,17
+Sweden,6b,14,14
+Sweden,6b+,10,10
+Sweden,6b+/6c,45,45
+Sweden,6b/+,46,46
+Sweden,6c,13,13
+Sweden,6c+,7,7
+Sweden,6c+/7a,7,7
+Sweden,6c/+,31,31
+Sweden,7a,23,23
+Sweden,7a+,13,13
+Sweden,7a+/7b,5,5
+Sweden,7a/+,10,10
+Sweden,7b,19,19
+Sweden,7b+,13,13
+Sweden,7b+/7c,6,6
+Sweden,7b/+,9,9
+Sweden,7c,9,9
+Sweden,7c+,10,10
+Sweden,7c/+,3,3
+Sweden,8a,2,2
+Sweden,8a+,2,2
+Sweden,8a+/8b,4,4
+Sweden,8a/+,10,10
+Sweden,8b,3,3
+Sweden,8b/+,1,1
+Switzerland,5,3,3
+Switzerland,5a,2,2
+Switzerland,5a+,5,5
+Switzerland,5b,6,6
+Switzerland,5b+,16,16
+Switzerland,5c,3,3
+Switzerland,5c+,5,5
+Switzerland,6,32,32
+Switzerland,6a,11,11
+Switzerland,6a+,13,13
+Switzerland,6a+/6b,46,46
+Switzerland,6a/+,34,34
+Switzerland,6b,18,18
+Switzerland,6b+,14,14
+Switzerland,6b+/6c,55,55
+Switzerland,6b/+,46,46
+Switzerland,6c,20,20
+Switzerland,6c+,11,11
+Switzerland,6c+/7a,11,11
+Switzerland,6c/+,36,36
+Switzerland,7a,76,76
+Switzerland,7a+,41,41
+Switzerland,7a+/7b,16,16
+Switzerland,7a/+,32,32
+Switzerland,7b,65,65
+Switzerland,7b+,31,31
+Switzerland,7b+/7c,14,14
+Switzerland,7b/+,20,20
+Switzerland,7c,43,43
+Switzerland,7c+,10,10
+Switzerland,7c+/8a,12,12
+Switzerland,7c/+,15,15
+Switzerland,8a,4,4
+Switzerland,8a+,1,1
+Switzerland,8a+/8b,10,10
+Switzerland,8a/+,23,23
+Switzerland,8b,2,2
+Switzerland,8b+,2,2
+Switzerland,8b+/8c,2,2
+Switzerland,8b/+,8,8
+Switzerland,8c+,1,1
+Switzerland,8c/+,2,2
+Turkey,5,7,7
+Turkey,5a,5,5
+Turkey,5a+,11,11
+Turkey,5b,7,7
+Turkey,5b+,18,18
+Turkey,5c,11,11
+Turkey,5c+,5,5
+Turkey,6,19,19
+Turkey,6a,17,17
+Turkey,6a+,16,16
+Turkey,6a+/6b,34,34
+Turkey,6a/+,31,31
+Turkey,6b,12,12
+Turkey,6b+,18,18
+Turkey,6b+/6c,28,28
+Turkey,6b/+,31,31
+Turkey,6c,19,19
+Turkey,6c+,14,14
+Turkey,6c+/7a,6,6
+Turkey,6c/+,31,31
+Turkey,7a,42,42
+Turkey,7a+,33,33
+Turkey,7a+/7b,20,20
+Turkey,7a/+,31,31
+Turkey,7b,34,34
+Turkey,7b+,36,36
+Turkey,7b+/7c,20,20
+Turkey,7b/+,18,18
+Turkey,7c,33,33
+Turkey,7c+,20,20
+Turkey,7c+/8a,11,11
+Turkey,7c/+,14,14
+Turkey,8a,6,6
+Turkey,8a+,8,8
+Turkey,8a+/8b,16,16
+Turkey,8a/+,28,28
+Turkey,8b,5,5
+Turkey,8b+,7,7
+Turkey,8b+/8c,4,4
+Turkey,8b/+,7,7
+Ukraine,5a+,13,13
+Ukraine,5b,2,2
+Ukraine,5b+,8,8
+Ukraine,5c,3,3
+Ukraine,5c+,2,2
+Ukraine,6,10,10
+Ukraine,6a,7,7
+Ukraine,6a+,9,9
+Ukraine,6a+/6b,15,15
+Ukraine,6a/+,15,15
+Ukraine,6b,8,8
+Ukraine,6b+,12,12
+Ukraine,6b+/6c,13,13
+Ukraine,6b/+,24,24
+Ukraine,6c,12,12
+Ukraine,6c+,12,12
+Ukraine,6c+/7a,7,7
+Ukraine,6c/+,15,15
+Ukraine,7a,18,18
+Ukraine,7a+,17,17
+Ukraine,7a+/7b,9,9
+Ukraine,7a/+,12,12
+Ukraine,7b,21,21
+Ukraine,7b+,14,14
+Ukraine,7b+/7c,9,9
+Ukraine,7b/+,8,8
+Ukraine,7c,15,15
+Ukraine,7c+,9,9
+Ukraine,7c+/8a,1,1
+Ukraine,7c/+,7,7
+Ukraine,8a,2,2
+Ukraine,8a+,10,10
+Ukraine,8a+/8b,4,4
+Ukraine,8a/+,3,3
+Ukraine,8b,4,4
+Ukraine,8b+/8c,2,2
+Ukraine,8b/+,1,1
+Ukraine,8c+,1,1
+Ukraine,8c/+,2,2
+Ukraine,9a,1,1
+United Kingdom,5,7,7
+United Kingdom,5a,4,4
+United Kingdom,5a+,5,5
+United Kingdom,5b,1,1
+United Kingdom,5b+,4,4
+United Kingdom,5c,1,1
+United Kingdom,5c+,1,1
+United Kingdom,6,17,17
+United Kingdom,6a,9,9
+United Kingdom,6a+,6,6
+United Kingdom,6a+/6b,23,23
+United Kingdom,6a/+,16,16
+United Kingdom,6b,7,7
+United Kingdom,6b+,9,9
+United Kingdom,6b+/6c,17,17
+United Kingdom,6b/+,17,17
+United Kingdom,6c,8,8
+United Kingdom,6c+,4,4
+United Kingdom,6c+/7a,1,1
+United Kingdom,6c/+,10,10
+United Kingdom,7a,50,50
+United Kingdom,7a+,40,40
+United Kingdom,7a+/7b,13,13
+United Kingdom,7a/+,18,18
+United Kingdom,7b,29,29
+United Kingdom,7b+,22,22
+United Kingdom,7b+/7c,10,10
+United Kingdom,7b/+,12,12
+United Kingdom,7c,16,16
+United Kingdom,7c+,10,10
+United Kingdom,7c+/8a,4,4
+United Kingdom,7c/+,5,5
+United Kingdom,8a,3,3
+United Kingdom,8a+,2,2
+United Kingdom,8a+/8b,7,7
+United Kingdom,8a/+,15,15
+United Kingdom,8b,3,3
+United Kingdom,8b/+,1,1
+Canada,5,11,11
+Canada,5a,2,2
+Canada,5a+,27,27
+Canada,5b,16,16
+Canada,5b+,27,27
+Canada,5c,8,8
+Canada,5c+,7,7
+Canada,6,28,28
+Canada,6a,9,9
+Canada,6a+,17,17
+Canada,6a+/6b,18,18
+Canada,6a/+,36,36
+Canada,6b,10,10
+Canada,6b+,13,13
+Canada,6b+/6c,31,31
+Canada,6b/+,18,18
+Canada,6c,14,14
+Canada,6c+,12,12
+Canada,6c+/7a,6,6
+Canada,6c/+,49,49
+Canada,7a,29,29
+Canada,7a+,47,47
+Canada,7a+/7b,16,16
+Canada,7a/+,12,12
+Canada,7b,30,30
+Canada,7b+,25,25
+Canada,7b+/7c,14,14
+Canada,7b/+,11,11
+Canada,7c,24,24
+Canada,7c+,8,8
+Canada,7c+/8a,8,8
+Canada,7c/+,16,16
+Canada,8a+,3,3
+Canada,8a+/8b,9,9
+Canada,8a/+,11,11
+Canada,8b,2,2
+Canada,8b+,1,1
+Canada,8b+/8c,1,1
+Canada,8b/+,1,1
+Canada,8c+,1,1
+Canada,8c/+,1,1
+Mexico,5,1,1
+Mexico,5a,2,2
+Mexico,5a+,2,2
+Mexico,5b,4,4
+Mexico,5b+,11,11
+Mexico,5c,4,4
+Mexico,5c+,6,6
+Mexico,6,12,12
+Mexico,6a,11,11
+Mexico,6a+,13,13
+Mexico,6a+/6b,21,21
+Mexico,6a/+,25,25
+Mexico,6b,10,10
+Mexico,6b+,5,5
+Mexico,6b+/6c,20,20
+Mexico,6b/+,18,18
+Mexico,6c,8,8
+Mexico,6c+,14,14
+Mexico,6c+/7a,9,9
+Mexico,6c/+,37,37
+Mexico,7a,19,19
+Mexico,7a+,45,45
+Mexico,7a+/7b,23,23
+Mexico,7a/+,14,14
+Mexico,7b,24,24
+Mexico,7b+,26,26
+Mexico,7b+/7c,6,6
+Mexico,7b/+,9,9
+Mexico,7c,22,22
+Mexico,7c+,25,25
+Mexico,7c+/8a,5,5
+Mexico,7c/+,12,12
+Mexico,8a,4,4
+Mexico,8a+,6,6
+Mexico,8a+/8b,11,11
+Mexico,8a/+,16,16
+Mexico,8b,2,2
+Mexico,8b+,1,1
+Mexico,8b+/8c,6,6
+Mexico,8b/+,12,12
+Mexico,8c+,1,1
+United States,5,67,67
+United States,5a,25,25
+United States,5a+,103,103
+United States,5b,47,47
+United States,5b+,183,183
+United States,5c,53,53
+United States,5c+,16,16
+United States,6,189,189
+United States,6a,72,72
+United States,6a+,90,90
+United States,6a+/6b,155,155
+United States,6a/+,172,172
+United States,6b,58,58
+United States,6b+,58,58
+United States,6b+/6c,218,218
+United States,6b/+,146,146
+United States,6c,133,133
+United States,6c+,120,120
+United States,6c+/7a,49,49
+United States,6c/+,382,382
+United States,7a,167,167
+United States,7a+,373,373
+United States,7a+/7b,160,160
+United States,7a/+,107,107
+United States,7b,227,227
+United States,7b+,195,195
+United States,7b+/7c,97,97
+United States,7b/+,137,137
+United States,7c,122,122
+United States,7c+,150,150
+United States,7c+/8a,64,64
+United States,7c/+,75,75
+United States,8a,28,28
+United States,8a+,54,54
+United States,8a+/8b,55,55
+United States,8a/+,86,86
+United States,8b,23,23
+United States,8b+,27,27
+United States,8b+/8c,19,19
+United States,8b/+,32,32
+United States,8c,8,8
+United States,8c+,6,6
+United States,8c+/9a,7,7
+United States,8c/+,5,5
+United States,9a,2,2
+United States,9a+,1,1
+United States,9a/+,2,2
+United States,9b,1,1
+Australia,5,5,5
+Australia,5a,9,9
+Australia,5a+,7,7
+Australia,5b,9,9
+Australia,5b+,9,9
+Australia,5c,11,11
+Australia,5c+,9,9
+Australia,6,20,20
+Australia,6a,19,19
+Australia,6a+,9,9
+Australia,6a+/6b,19,19
+Australia,6a/+,21,21
+Australia,6b,14,14
+Australia,6b+,28,28
+Australia,6b+/6c,12,12
+Australia,6b/+,29,29
+Australia,6c,8,8
+Australia,6c+,9,9
+Australia,6c+/7a,15,15
+Australia,6c/+,51,51
+Australia,7a,74,74
+Australia,7a+,75,75
+Australia,7a+/7b,19,19
+Australia,7a/+,21,21
+Australia,7b,77,77
+Australia,7b+,56,56
+Australia,7b+/7c,22,22
+Australia,7b/+,29,29
+Australia,7c,36,36
+Australia,7c+,30,30
+Australia,7c+/8a,13,13
+Australia,7c/+,20,20
+Australia,8a,3,3
+Australia,8a+,19,19
+Australia,8a+/8b,19,19
+Australia,8a/+,18,18
+Australia,8b,8,8
+Australia,8b+,7,7
+Australia,8b+/8c,12,12
+Australia,8b/+,17,17
+Australia,8c,3,3
+Australia,8c+,1,1
+Australia,8c+/9a,1,1
+Australia,8c/+,7,7
+New Zealand,5,4,4
+New Zealand,5a,4,4
+New Zealand,5a+,14,14
+New Zealand,5b,7,7
+New Zealand,5b+,12,12
+New Zealand,5c,8,8
+New Zealand,5c+,13,13
+New Zealand,6,11,11
+New Zealand,6a,13,13
+New Zealand,6a+,1,1
+New Zealand,6a+/6b,14,14
+New Zealand,6a/+,8,8
+New Zealand,6b,6,6
+New Zealand,6b+,8,8
+New Zealand,6b+/6c,9,9
+New Zealand,6b/+,8,8
+New Zealand,6c,4,4
+New Zealand,6c+,4,4
+New Zealand,6c+/7a,3,3
+New Zealand,6c/+,17,17
+New Zealand,7a,29,29
+New Zealand,7a+,36,36
+New Zealand,7a+/7b,13,13
+New Zealand,7a/+,13,13
+New Zealand,7b,19,19
+New Zealand,7b+,17,17
+New Zealand,7b+/7c,11,11
+New Zealand,7b/+,12,12
+New Zealand,7c,10,10
+New Zealand,7c+,12,12
+New Zealand,7c+/8a,2,2
+New Zealand,7c/+,8,8
+New Zealand,8a,1,1
+New Zealand,8a+,3,3
+New Zealand,8a+/8b,3,3
+New Zealand,8a/+,7,7
+New Zealand,8b,3,3
+New Zealand,8b+,1,1
+New Zealand,8b+/8c,1,1
+New Zealand,8b/+,1,1
+New Zealand,8c/+,1,1
+Argentina,5,1,1
+Argentina,5a+,1,1
+Argentina,5b,1,1
+Argentina,5b+,5,5
+Argentina,5c+,1,1
+Argentina,6,8,8
+Argentina,6a,4,4
+Argentina,6a+,5,5
+Argentina,6a+/6b,14,14
+Argentina,6a/+,5,5
+Argentina,6b,4,4
+Argentina,6b+,3,3
+Argentina,6b+/6c,14,14
+Argentina,6b/+,2,2
+Argentina,6c,3,3
+Argentina,6c+,3,3
+Argentina,6c/+,9,9
+Argentina,7a,20,20
+Argentina,7a+,7,7
+Argentina,7a+/7b,4,4
+Argentina,7a/+,5,5
+Argentina,7b,12,12
+Argentina,7b+,5,5
+Argentina,7b+/7c,2,2
+Argentina,7b/+,5,5
+Argentina,7c,8,8
+Argentina,7c+,1,1
+Argentina,7c+/8a,2,2
+Argentina,7c/+,4,4
+Argentina,8a+,4,4
+Argentina,8a+/8b,1,1
+Argentina,8a/+,3,3
+Argentina,8b,1,1
+Argentina,8b+/8c,2,2
+Argentina,8b/+,1,1
+Argentina,8c/+,1,1
+Brazil,5,7,7
+Brazil,5a,2,2
+Brazil,5a+,15,15
+Brazil,5b,8,8
+Brazil,5b+,18,18
+Brazil,5c,19,19
+Brazil,5c+,20,20
+Brazil,6,39,39
+Brazil,6a,22,22
+Brazil,6a+,27,27
+Brazil,6a+/6b,81,81
+Brazil,6a/+,35,35
+Brazil,6b,31,31
+Brazil,6b+,70,70
+Brazil,6b+/6c,138,138
+Brazil,6b/+,97,97
+Brazil,6c,70,70
+Brazil,6c+,48,48
+Brazil,6c+/7a,30,30
+Brazil,6c/+,124,124
+Brazil,7a,78,78
+Brazil,7a+,95,95
+Brazil,7a+/7b,53,53
+Brazil,7a/+,47,47
+Brazil,7b,68,68
+Brazil,7b+,39,39
+Brazil,7b+/7c,34,34
+Brazil,7b/+,42,42
+Brazil,7c,54,54
+Brazil,7c+,21,21
+Brazil,7c+/8a,7,7
+Brazil,7c/+,27,27
+Brazil,8a,7,7
+Brazil,8a+/8b,6,6
+Brazil,8a/+,15,15
+Brazil,8b,4,4
+Brazil,8b+,1,1
+Brazil,8b+/8c,1,1
+Brazil,8b/+,1,1
+Brazil,8c,2,2
+Chile,6,1,1
+Chile,6a,1,1
+Chile,6a+/6b,1,1
+Chile,6b,1,1
+Chile,6b+,2,2
+Chile,6b/+,1,1
+Chile,6c,2,2
+Chile,6c/+,2,2
+Chile,7a,1,1
+Chile,7a+,1,1
+Chile,7a+/7b,2,2
+Chile,7b,1,1
+Chile,7b+,3,3
+Chile,7b/+,4,4
+Chile,7c,1,1
+Chile,7c+,3,3
+Chile,7c+/8a,2,2
+Chile,7c/+,4,4
+Chile,8a,1,1
+Chile,8a+/8b,1,1
+Chile,8a/+,1,1
+Colombia,5,1,1
+Colombia,5c,1,1
+Colombia,6b,1,1
+Colombia,7a+,2,2
+Ecuador,6a+/6b,1,1
+Peru,5a+,2,2
+Peru,5b+,3,3
+Peru,5c,2,2
+Peru,5c+,2,2
+Peru,6,4,4
+Peru,6a,2,2
+Peru,6a+,2,2
+Peru,6a+/6b,7,7
+Peru,6a/+,8,8
+Peru,6b+,1,1
+Peru,6b+/6c,1,1
+Peru,6b/+,2,2
+Peru,6c,2,2
+Peru,6c/+,1,1
+Peru,7a,1,1
+Peru,7a+,1,1
+Venezuela,5a,2,2
+Venezuela,5a+,2,2
+Venezuela,5b,4,4
+Venezuela,5b+,2,2
+Venezuela,5c,4,4
+Venezuela,5c+,2,2
+Venezuela,6,5,5
+Venezuela,6a,3,3
+Venezuela,6a+,5,5
+Venezuela,6a+/6b,3,3
+Venezuela,6a/+,6,6
+Venezuela,6b,3,3
+Venezuela,6b+,2,2
+Venezuela,6b+/6c,9,9
+Venezuela,6b/+,5,5
+Venezuela,6c,6,6
+Venezuela,6c+,3,3
+Venezuela,6c+/7a,1,1
+Venezuela,6c/+,7,7
+Venezuela,7a,2,2
+Venezuela,7a+,7,7
+Venezuela,7a+/7b,6,6
+Venezuela,7a/+,3,3
+Venezuela,7b,5,5
+Venezuela,7b+,2,2
+Venezuela,7b+/7c,3,3
+Venezuela,7b/+,1,1
+Venezuela,7c,4,4
+Venezuela,7c+,1,1
+Venezuela,7c+/8a,2,2
+Venezuela,7c/+,1,1
+Venezuela,8a+,1,1
+Venezuela,8a/+,3,3

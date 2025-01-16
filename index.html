@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Climbing Route Explorer</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="assets/images/mountain.png" type="image/x-icon">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://unpkg.com/topojson@3"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    </head>
+<body>
+    <section id="title-section">
+        <div id="title-overlay">
+            <h1>Explore Climbing Routes Around the World &#129495</h1>
+            <p>Discover the best climbing spots on every continent</p>
+        </div>
+    </section>
+    <section id="landing-page">
+        <div id="controls">
+            <button id="daltonic-mode-button">I'm Daltonic</button>
+        </div>
+        <div id="world-map-container">
+            <svg id="world-map"></svg>
+            <div id="tooltip"></div>
+        </div>
+        <div id="gradient-container">
+            <div id="legend-gradient"></div>
+            <div id="legend-text">
+                <span>More routes ➡</span>
+            </div>
+        </div>
+    </section>
+    <div id="scroll-container">
+        <!-- Europe Section -->
+        <div class="continent-section" id="europe-section" data-continent="europe">
+            <div class="section-left">
+                <h2>Europe</h2>
+                <p>Explore the climbing routes in <strong>Europe</strong>.</p>
+                <select class="grade-filter" data-continent="europe"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="europe-map" class="continent-map"></svg>
+                    <div class="tooltip" id="europe-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="europe-tooltip"></div>
+                    <div id="selected-country-display-europe" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-europe" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-europe" class="grade-info"></span>
+                                <span id="selected-route-number-europe" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-europe">✖</button>
+                        <div id="routes-list-container-europe" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asia Section -->
+        <div class="continent-section" id="asia-section" data-continent="asia">
+            <div class="section-left">
+                <h2>Asia</h2>
+                <p>Explore the climbing routes in <strong>Asia</strong>.</p>
+                <select class="grade-filter" data-continent="asia"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="asia-map" class="continent-map"></svg>
+                    <div class="tooltip" id="asia-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="asia-tooltip"></div>
+                    <div id="selected-country-display-asia" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-asia" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-asia" class="grade-info"></span>
+                                <span id="selected-route-number-asia" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-asia">✖</button>
+                        <div id="routes-list-container-asia" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Africa Section -->
+        <div class="continent-section" id="africa-section" data-continent="africa">
+            <div class="section-left">
+                <h2>Africa</h2>
+                <p>Explore the climbing routes in <strong>Africa</strong>.</p>
+                <select class="grade-filter" data-continent="africa"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="africa-map" class="continent-map"></svg>
+                    <div class="tooltip" id="africa-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="africa-tooltip"></div>
+                    <div id="selected-country-display-africa" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-africa" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-africa" class="grade-info"></span>
+                                <span id="selected-route-number-africa" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-africa">✖</button>
+                        <div id="routes-list-container-africa" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- North America Section -->
+        <div class="continent-section" id="north_america-section" data-continent="north_america">
+            <div class="section-left">
+                <h2>North America</h2>
+                <p>Explore the climbing routes in <strong>North America</strong>.</p>
+                <select class="grade-filter" data-continent="north_america"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="north_america-map" class="continent-map"></svg>
+                    <div class="tooltip" id="north_america-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="north_america-tooltip"></div>
+                    <div id="selected-country-display-north_america" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-north_america" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-north_america" class="grade-info"></span>
+                                <span id="selected-route-number-north_america" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-north_america">✖</button>
+                        <div id="routes-list-container-north_america" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- South America Section -->
+        <div class="continent-section" id="south_america-section" data-continent="south_america">
+            <div class="section-left">
+                <h2>South America</h2>
+                <p>Explore the climbing routes in <strong>South America</strong>.</p>
+                <select class="grade-filter" data-continent="south_america"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="south_america-map" class="continent-map"></svg>
+                    <div class="tooltip" id="south_america-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="south_america-tooltip"></div>
+                    <div id="selected-country-display-south_america" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-south_america" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-south_america" class="grade-info"></span>
+                                <span id="selected-route-number-south_america" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-south_america">✖</button>
+                        <div id="routes-list-container-south_america" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Oceania Section -->
+        <div class="continent-section" id="oceania-section" data-continent="oceania">
+            <div class="section-left">
+                <h2>Oceania</h2>
+                <p>Explore the climbing routes in <strong>Oceania</strong>.</p>
+                <select class="grade-filter" data-continent="oceania"></select>
+            </div>
+            <div class="section-right">
+                <div class="map-wrapper">
+                    <svg id="oceania-map" class="continent-map"></svg>
+                    <div class="tooltip" id="oceania-tooltip-hoover"></div>
+                    <div class="tooltip scrollable-list" id="oceania-tooltip"></div>
+                    <div id="selected-country-display-oceania" class="fixed-country-display" style="display: none;">
+                        <div class="display-header">
+                            <span id="selected-country-name-oceania" class="country-name"></span>
+                            <div>
+                                <span id="selected-grade-info-oceania" class="grade-info"></span>
+                                <span id="selected-route-number-oceania" class="route-number"></span>
+                            </div>
+                        </div>
+                        <button id="close-selection-btn-oceania">✖</button>
+                        <div id="routes-list-container-oceania" class="routes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="country-charts-container" style="margin: 20px; padding: 20px;">
+        <h2 style="text-align: center;">Climber Statistics by Country &#128202; </h2>
+        <div style="display: flex; justify-content: flex-end; align-items: center; gap: 20px;">
+            <label for="country-selector" style="justify-content:flex-end; font-size: 16px;">Select a Country:</label>
+            <select id="country-selector"></select>
+            <div id="legend-container" style="justify-content:flex-end; margin-top: 20px;">
+                <h4>Legend</h4>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 20px; height: 20px; background: purple;"></div> Male
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 20px; height: 20px; background: yellow;"></div> Female
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 20px; height: 20px; background: white; border: 1px solid black;"></div> Local Average
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 20px; height: 20px; background: red;"></div> Global Average
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top row for Height, Weight, Age -->
+        <div id="top-row" style="display: flex; gap: 20px; margin-top: 20px;"></div>
+        <!-- Grade Mean Fra below -->
+        <div id="bottom-row" style="margin-top: 20px;"></div>
+    </div>
+    
+    <section id="references-section">
+        <div class="references-container">
+            <h2>Sources and References</h2>
+            <div class="reference-category">
+                <h3>Geometrical Data</h3>
+                <ul>
+                    <li><a href="https://cartographyvectors.com/map/523-north-america-outline-with-countries-detailed" target="_blank">
+                        North America Outline with Countries. (2023). Cartography Vectors. Free with attribution
+                    </a></li>
+                    <li><a href="https://cartographyvectors.com/map/223-europe-outline-with-countries" target="_blank">
+                        Europe Outline with Countries. (2023). Cartography Vectors. Free with attribution
+                    </a></li>
+                    <li><a href="https://cartographyvectors.com/map/6-africa-outline-with-countries" target="_blank">
+                        Africa Outline with Countries. (2023). Cartography Vectors. Free with attribution
+                    </a></li>
+                    <li><a href="https://cartographyvectors.com/map/651-south-america-outline-with-countries" target="_blank">
+                        South America Outline with Countries. (2023). Cartography Vectors. Free with attribution
+                    </a></li>
+                    <li><a href="https://cartographyvectors.com/map/531-oceania-outline-with-countries" target="_blank">
+                        Oceania Outline with Countries. (2023). Cartography Vectors. Free with attribution
+                    </a></li>
+                </ul>
+            </div>
+    
+            <div class="reference-category">
+                <h3>Datasets</h3>
+                <ul>
+                    <li><a href="https://developers.google.com/public-data/docs/canonical/countries_csv?hl=es-419" target="_blank">
+                        Google Developers. (n.d.). Countries CSV Dataset. CC BY-SA 4.0
+                    </a></li>
+                    <li><a href="https://www.kaggle.com/datasets/jordizar/climb-dataset/data?select=routes_rated.csv" target="_blank">
+                        Jordi Zar. (2021). Climb Dataset. Kaggle. ODbL
+                    </a></li>
+                    <li><a href="https://www.kaggle.com/datasets/hserdaraltan/countries-by-continent" target="_blank">
+                        H. Serdar Altan. (2021). Countries by Continent. Kaggle. CC BY-SA 4.0
+                    </a></li>
+                </ul>
+            </div>
+    
+            <div class="reference-category">
+                <h3>Assets</h3>
+                <ul>
+                    <li><a href="https://www.flaticon.com/free-icon/mountain_9958342?term=climbing&page=1&position=25&origin=search&related_id=9958342" target="_blank">
+                        Leremy. (n.d.). Mountain Icon. Flaticon. Flaticon License  
+                    </a></li>
+                    <li><a href="https://unsplash.com/es/fotos/hombre-escalada-en-roca-qcXff4UhZ-4" target="_blank">
+                        Ouimet, J. (2017). Rock Climber. Unsplash.
+                    </a></li>
+                </ul>
+            </div>
+            <div class="reference-category">
+                <h3>Technologies</h3>
+                <ul>
+                    <li><a href="https://d3js.org/" target="_blank">
+                        Bostock, M. (2017). D3.js - Data-Driven Documents. 
+                    </a></li>
+                    <li><a href="https://scrollmagic.io/" target="_blank">
+                        Diaco, N. (2023). ScrollMagic: The JavaScript library for scroll animations. 
+                    </a></li>
+                    <li><a href="https://greensock.com/gsap/" target="_blank">
+                        GreenSock. (2024). GSAP: GreenSock Animation Platform. 
+                    </a></li>
+                    <li><a href="https://github.com/topojson/topojson" target="_blank">
+                        TopoJSON. (2024). TopoJSON: An extension of GeoJSON that encodes topology! 🌐. 
+                    </a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                        Mozilla Foundation. JavaScript. 
+                    </a></li>
+                    <li><a href="https://html.spec.whatwg.org/" target="_blank">
+                        W3C. (2025). HTML Standard. 
+                    </a></li>
+                    <li><a href="https://www.w3.org/Style/CSS/" target="_blank">
+                        W3C. (2023). CSS: Cascading Style Sheets. 
+                    </a></li>
+                </ul>
+            </div>
+        <div class="reference-category">
+            <h3>Tutorials and help</h3>
+            <ul>
+                <li><a href="https://www.geeksforgeeks.org/javascript/?ref=outind" target="_blank">
+                    GeeksforGeeks. 2025. JavaScript tutorial. 
+                </a></li>
+                <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">
+                    w3schools. HTML & CSS tutorial. Retrieved January 14, 2025.
+                </a></li>
+                <li><a href="https://github.com/DevinLeeBartley/map672/blob/master/module-08/lesson-08.md" target="_blank">
+                    Bartley, D. L. (2016). Module 08: Lesson 08. GitHub. 
+                </a></li>
+                <li><a href="https://chat.openai.com/chat" target="_blank">
+                    OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model] 
+                    (Per rebre consells de disseny i esbossar idees. I redactar el README, quelcom no obligatori, per potencialment donar-li continuitat al projecte)
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    <script src="js/map.js"></script>
+    <script src="js/scrollmagic.js"></script>
+</body>
+</html>

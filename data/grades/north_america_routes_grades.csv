@@ -1,0 +1,131 @@
+Country,grade_fra,route_count,color_intensity
+Canada,5,11,11
+Canada,5a,2,2
+Canada,5a+,27,27
+Canada,5b,16,16
+Canada,5b+,27,27
+Canada,5c,8,8
+Canada,5c+,7,7
+Canada,6,28,28
+Canada,6a,9,9
+Canada,6a+,17,17
+Canada,6a+/6b,18,18
+Canada,6a/+,36,36
+Canada,6b,10,10
+Canada,6b+,13,13
+Canada,6b+/6c,31,31
+Canada,6b/+,18,18
+Canada,6c,14,14
+Canada,6c+,12,12
+Canada,6c+/7a,6,6
+Canada,6c/+,49,49
+Canada,7a,29,29
+Canada,7a+,47,47
+Canada,7a+/7b,16,16
+Canada,7a/+,12,12
+Canada,7b,30,30
+Canada,7b+,25,25
+Canada,7b+/7c,14,14
+Canada,7b/+,11,11
+Canada,7c,24,24
+Canada,7c+,8,8
+Canada,7c+/8a,8,8
+Canada,7c/+,16,16
+Canada,8a+,3,3
+Canada,8a+/8b,9,9
+Canada,8a/+,11,11
+Canada,8b,2,2
+Canada,8b+,1,1
+Canada,8b+/8c,1,1
+Canada,8b/+,1,1
+Canada,8c+,1,1
+Canada,8c/+,1,1
+Mexico,5,1,1
+Mexico,5a,2,2
+Mexico,5a+,2,2
+Mexico,5b,4,4
+Mexico,5b+,11,11
+Mexico,5c,4,4
+Mexico,5c+,6,6
+Mexico,6,12,12
+Mexico,6a,11,11
+Mexico,6a+,13,13
+Mexico,6a+/6b,21,21
+Mexico,6a/+,25,25
+Mexico,6b,10,10
+Mexico,6b+,5,5
+Mexico,6b+/6c,20,20
+Mexico,6b/+,18,18
+Mexico,6c,8,8
+Mexico,6c+,14,14
+Mexico,6c+/7a,9,9
+Mexico,6c/+,37,37
+Mexico,7a,19,19
+Mexico,7a+,45,45
+Mexico,7a+/7b,23,23
+Mexico,7a/+,14,14
+Mexico,7b,24,24
+Mexico,7b+,26,26
+Mexico,7b+/7c,6,6
+Mexico,7b/+,9,9
+Mexico,7c,22,22
+Mexico,7c+,25,25
+Mexico,7c+/8a,5,5
+Mexico,7c/+,12,12
+Mexico,8a,4,4
+Mexico,8a+,6,6
+Mexico,8a+/8b,11,11
+Mexico,8a/+,16,16
+Mexico,8b,2,2
+Mexico,8b+,1,1
+Mexico,8b+/8c,6,6
+Mexico,8b/+,12,12
+Mexico,8c+,1,1
+United States,5,67,67
+United States,5a,25,25
+United States,5a+,103,103
+United States,5b,47,47
+United States,5b+,183,183
+United States,5c,53,53
+United States,5c+,16,16
+United States,6,189,189
+United States,6a,72,72
+United States,6a+,90,90
+United States,6a+/6b,155,155
+United States,6a/+,172,172
+United States,6b,58,58
+United States,6b+,58,58
+United States,6b+/6c,218,218
+United States,6b/+,146,146
+United States,6c,133,133
+United States,6c+,120,120
+United States,6c+/7a,49,49
+United States,6c/+,382,382
+United States,7a,167,167
+United States,7a+,373,373
+United States,7a+/7b,160,160
+United States,7a/+,107,107
+United States,7b,227,227
+United States,7b+,195,195
+United States,7b+/7c,97,97
+United States,7b/+,137,137
+United States,7c,122,122
+United States,7c+,150,150
+United States,7c+/8a,64,64
+United States,7c/+,75,75
+United States,8a,28,28
+United States,8a+,54,54
+United States,8a+/8b,55,55
+United States,8a/+,86,86
+United States,8b,23,23
+United States,8b+,27,27
+United States,8b+/8c,19,19
+United States,8b/+,32,32
+United States,8c,8,8
+United States,8c+,6,6
+United States,8c+/9a,7,7
+United States,8c/+,5,5
+United States,9a,2,2
+United States,9a+,1,1
+United States,9a/+,2,2
+United States,9b,1,1
