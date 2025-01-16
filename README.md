@@ -1,4 +1,5 @@
-# Climbing Route Explorer 🗻 :mount_fuji:	
+# Climbing Route Explorer 🗻 	
+
 ## Overview
 The **Climbing Route Explorer** is an interactive web application that allows users to explore climbing routes around the world by continent and country. The project includes animations for smooth transitions and dynamic data visualization using charts.
 
