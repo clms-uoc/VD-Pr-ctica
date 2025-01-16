@@ -2,23 +2,23 @@ let isDaltonicMode = false;
 
 
 
-const width = 800; // Increase map width for better scaling
-const height = 600; // Increase map height for better scaling
+const width = 800; 
+const height = 600; 
 
 const projection = d3.geoMercator()
-    .scale(100) // Increase scale to make the continents appear larger
-    .center([10, 50]) // Adjust center for better positioning (longitude, latitude)
-    .translate([width / 2, height / 2]); // Center the map in the SVG
+    .scale(100) 
+    .center([10, 50]) 
+    .translate([width / 2, height / 2]); 
 
 const path = d3.geoPath().projection(projection);
 
-const gradeState = new Map(); // Map to track selected grades for each continent
+const gradeState = new Map(); 
 
 document.querySelectorAll(".continent-section").forEach(section => {
     section.addEventListener("scroll", () => {
-        const continent = section.id.replace("-section", ""); // Extract continent from section ID
-        const grade = gradeState.get(continent) || "all"; // Get saved grade or default to "all"
-        loadData(continent, grade); // Reload map with the correct grade
+        const continent = section.id.replace("-section", ""); 
+        const grade = gradeState.get(continent) || "all"; 
+        loadData(continent, grade); 
     });
 });
 
@@ -62,14 +62,14 @@ function updateMapSize(continent) {
 }
 
 function updateProjection(geojson, continent) {
-    const bounds = d3.geoPath().bounds(geojson); // Get bounds of the GeoJSON
-    const dx = bounds[1][0] - bounds[0][0]; // Width of bounds
-    const dy = bounds[1][1] - bounds[0][1]; // Height of bounds
-    const xCenter = (bounds[0][0] + bounds[1][0]) / 2; // X center of bounds
-    const yCenter = (bounds[0][1] + bounds[1][1]) / 2; // Y center of bounds
+    const bounds = d3.geoPath().bounds(geojson); 
+    const dx = bounds[1][0] - bounds[0][0]; 
+    const dy = bounds[1][1] - bounds[0][1]; 
+    const xCenter = (bounds[0][0] + bounds[1][0]) / 2; 
+    const yCenter = (bounds[0][1] + bounds[1][1]) / 2; 
 
-    // Base scale and translation (calculated dynamically)
-    const baseScale = Math.min(width / dx, height / dy) * 0.8; // Add padding with 0.8 multiplier
+    
+    const baseScale = Math.min(width / dx, height / dy) * 0.8; 
     const baseTranslate = [
         width / 2 - baseScale * xCenter,
         height / 2 - baseScale * yCenter,
@@ -87,20 +87,19 @@ function updateProjection(geojson, continent) {
 
     const adjustment = continentAdjustments[continent] || { scale: 1, translateX: 0, translateY: 0 };
 
-    // Apply adjustments
+ 
     const scale = baseScale * adjustment.scale;
     const translate = [
         baseTranslate[0] + adjustment.translateX,
         baseTranslate[1] + adjustment.translateY,
     ];
 
-    // Update projection
+
     projection
         .scale(scale)
         .translate(translate);
 }
 
-// Load data for a specific continent and grade
 function loadData(continent, grade = "all") {
     const formattedContinent = continent.replace("-", "_");
 
@@ -114,28 +113,25 @@ function loadData(continent, grade = "all") {
         console.log(`Grades data loaded for ${continent}:`, gradesData);
         console.log(`Route info data loaded for ${continent}:`, routeInfoData);
 
-        // Save current grade state for the continent
         gradeState.set(continent, grade);
 
-        createLegend(gradesData); // Call legend creation with gradesData
-        populateGrades(continent, gradesData); // Populate dropdown
-        updateMap(continent, geojson, gradesData, routeInfoData, grade, daltonic=isDaltonicMode); // Update map with selected grade
+        createLegend(gradesData); 
+        populateGrades(continent, gradesData);
+        updateMap(continent, geojson, gradesData, routeInfoData, grade, daltonic=isDaltonicMode); 
     })
     .catch(error => {
         console.error(`Error loading data for ${continent}:`, error);
     });
 }
-// Populate the dropdown with unique grades
+
 function populateGrades(continent, gradesData) {
     const filter = document.querySelector(`.grade-filter[data-continent="${continent}"]`);
 
-    // Get saved grade for the continent
     const savedGrade = gradeState.get(continent) || "all";
 
-    // Extract unique grades
     const uniqueGrades = Array.from(new Set(gradesData.map(d => d.grade_fra))).sort();
 
-    // Populate the dropdown
+    
     filter.innerHTML = '<option value="all">All Grades</option>';
     uniqueGrades.forEach(grade => {
         const option = document.createElement("option");
@@ -144,12 +140,12 @@ function populateGrades(continent, gradesData) {
         filter.appendChild(option);
     });
 
-    // Restore saved selection
+    
     if (uniqueGrades.includes(savedGrade) || savedGrade === "all") {
         filter.value = savedGrade;
     }
 
-    // Save the selection on change
+    
     filter.addEventListener("change", event => {
         const selectedGrade = event.target.value;
         gradeState.set(continent, selectedGrade); 
@@ -158,7 +154,6 @@ function populateGrades(continent, gradesData) {
 }
 
 
-// Update the map with filtered data
 function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltonic) {
     console.log(`Updating map for ${continent}, Daltonic mode: ${daltonic}`);
 
@@ -177,11 +172,11 @@ function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltoni
     const routesListContainer = document.getElementById(`routes-list-container-${continent}`);
     const closeSelectionBtn = document.getElementById(`close-selection-btn-${continent}`);
 
-    let selectedCountry = null; // Variable to track the currently selected country
+    let selectedCountry = null; 
 
-    // Update projection dynamically based on geojson and continent-specific adjustments
+    
     updateProjection(geojson, continent);
-    svg.selectAll("*").remove(); // Clear previous elements
+    svg.selectAll("*").remove(); 
     const paths = svg.selectAll("path").data(geojson.features);
  
     console.log(`GeoJSON bounds for ${continent}:`, d3.geoPath().bounds(geojson));
@@ -192,15 +187,15 @@ function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltoni
        })
     console.log("GeoJSON Features:", geojson.features);
 
-    console.log(`Binding ${paths.size()} features to map for ${continent}`); // Log number of features bound
+    console.log(`Binding ${paths.size()} features to map for ${continent}`); 
 
     paths.join("path")
         .attr("d", d3.geoPath().projection(projection))
-        .attr("fill", "lightgray") // Temporary color for debugging
+        .attr("fill", "lightgray") 
         .attr("stroke", "black")
    
 
-    updateMapSize(continent); // Adjust map size dynamically
+    updateMapSize(continent); 
     
     gradesData.forEach(d => {
         d.grade_fra = d.grade_fra.trim().toLowerCase();
@@ -245,22 +240,22 @@ function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltoni
         .on("mouseout", function () {
             tooltip.style("display", "none");
         })
-        // Persistent frame for click
+        
         .on("click", function (event, d) {
-            // Hide tooltip
+            
             tooltip.style("display", "none");
             
-            // Get the selected country and continent
+            
             const countryName = d.properties.name || "Unknown Country";
             selectedCountryName.textContent = countryName;
             selectedGrade.textContent = grade + ' |'
             selectedCountryDisplay.style.display = "flex";
             
                 
-            // Load the data for the continent and filter for the country and grade
+            
             const routeFile = `data/info/${continent}_routes_info.csv`;
             d3.csv(routeFile).then(routeInfoData => {
-                // Filter by country and grade
+                
                 const filteredRoutes = routeInfoData.filter(route => {
                     return (
                         route.Country.trim().toLowerCase() === countryName.trim().toLowerCase() &&
@@ -272,7 +267,6 @@ function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltoni
                 console.log('filtered_routes', filteredRoutes)
                 
                 
-                // Create the HTML list for routes
                 const routesHTML = filteredRoutes.map(route => `
                     <div class="routes-list-item">
                         <strong>Crag:</strong> ${route.crag || "Unknown"}<br>
@@ -281,30 +275,28 @@ function updateMap(continent, geojson, gradesData, routeInfoData, grade, daltoni
                     </div>
                 `).join("");
         
-                // Display the filtered routes
+                
                 routesListContainer.innerHTML = routesHTML || "<p>No routes found for this grade in this country.</p>";
             }).catch(error => {
                 console.error("Error loading route data:", error);
                 routesListContainer.innerHTML = "<p>Error loading routes information.</p>";
             });
         });
-// Add the close button listener (attach only once)
-// Show the fixed-country-display when a country is clicked
+
 selectedCountryDisplay.style.display = "none";
 
-// Hide it when the close button is clicked
+
 closeSelectionBtn.addEventListener("click", () => {
     selectedCountryDisplay.style.display = "none";
 });
 }
 
-// Add event listeners to each grade filter
 document.querySelectorAll(".grade-filter").forEach(filter => {
     filter.addEventListener("change", event => {
-        const continent = filter.dataset.continent; // Identify continent
-        const grade = event.target.value; // Get selected grade
-        console.log(`Grade selected: ${grade} for ${continent}`); // Debug log
-        loadData(continent, grade); // Reload data with selected grade
+        const continent = filter.dataset.continent; 
+        const grade = event.target.value; 
+        console.log(`Grade selected: ${grade} for ${continent}`); 
+        loadData(continent, grade); 
     });
 })
 
@@ -325,8 +317,8 @@ function loadWorldGeoJSON(daltonic = false) {
 }
 function getWorldProjection() {
     return d3.geoMercator()
-        .scale(230) // Adjust scale for global view
-        .translate([860, 560]); // Center the map
+        .scale(230) 
+        .translate([860, 560]); 
 }
 
 
@@ -334,22 +326,22 @@ function getWorldProjection() {
 function renderWorldMap(geojsonData, grade = "all", daltonic=false) {
     let gradesData = null;
 
-    // Load grades data
+
     d3.csv(`data/grades/world_routes_grades.csv`).then(data => {
         gradesData = data;
 
-        // Normalize and process grades data
+        
         gradesData.forEach(d => {
-            d.route_count = +d.route_count || 0; // Ensure route_count is a number
-            d.grade_fra = d.grade_fra.trim().toLowerCase(); // Normalize grade_fra
+            d.route_count = +d.route_count || 0; 
+            d.grade_fra = d.grade_fra.trim().toLowerCase(); 
         });
 
-        // Filter grades based on selected grade
+        
         const filteredGrades = grade === "all"
             ? gradesData
             : gradesData.filter(d => d.grade_fra === grade.trim().toLowerCase());
 
-        // Aggregate route counts by country
+        
         const routeCounts = d3.rollups(
             filteredGrades,
             v => d3.sum(v, d => d.route_count),
@@ -358,24 +350,24 @@ function renderWorldMap(geojsonData, grade = "all", daltonic=false) {
 
         const colormap = daltonic ? d3.interpolateViridis : d3.interpolateYlOrRd;
 
-        // Determine max routes and create color scale
+        
         const maxRoutes = d3.max(routeCounts, d => d[1]) || 1;
         const colorScale = d3.scaleSequential(colormap).domain([0, maxRoutes]);
 
         const tooltip = d3.select("#tooltip")
 
-        // Select the world map SVG
+        
         const svg = d3.select("#world-map")
             .attr("width", 1000)
             .attr("height", 800);
         
-            svg.selectAll("*").remove(); // Clear previous map
+            svg.selectAll("*").remove(); 
 
         
         const worldProjection = getWorldProjection();
         const worldPath = d3.geoPath().projection(worldProjection);
 
-        // Render continents with GeoJSON data
+    
         geojsonData.forEach(({ continent, geojson }) => {
             svg.selectAll(`.continent-${continent}`)
                 .data(geojson.features)
@@ -439,12 +431,12 @@ document.getElementById("daltonic-mode-button").addEventListener("click", () => 
 });
 
 d3.csv("data/charts/processed_climber_df.csv").then(data => {
-    const containerWidth = 480; // Consistent chart container width
-    const containerHeight = 300; // Consistent chart container height
-    const gradeChartWidth = 1555; // Adjusted width for grade mean chart
-    const gradeChartHeight = 300; // Adjusted height for grade mean chart
+    const containerWidth = 480; 
+    const containerHeight = 300; 
+    const gradeChartWidth = 1555; 
+    const gradeChartHeight = 300; 
 
-    // Calculate global averages for each gender
+    
     const globalAverages = {
         male: {
             height: d3.mean(data.filter(d => +d.sex === 0), d => +d.height),
@@ -458,7 +450,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
         }
     };
 
-    // Populate the country selector
+    
     const countries = Array.from(new Set(data.map(d => d.country)));
     const countrySelector = d3.select("#country-selector");
     countries.forEach(country => {
@@ -466,12 +458,12 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
     });
 
 
-    // Handle country selection
+    
     countrySelector.on("change", function () {
         const selectedCountry = this.value;
         const countryData = data.filter(d => d.country === selectedCountry);
 
-        // Display charts for the selected country
+        
         displayCountryCharts(countryData);
     });
 
@@ -483,7 +475,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
             age: "Age (years)"
         };
 
-        // Clear existing charts
+        
         d3.select("#top-row").html("");
         d3.select("#bottom-row").html("");
 
@@ -491,7 +483,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
             const maleAverage = d3.mean(countryData.filter(d => +d.sex === 0), d => +d[metric]);
             const femaleAverage = d3.mean(countryData.filter(d => +d.sex === 1), d => +d[metric]);
         
-            // Access global averages from `globalAverages`
+            
             const globalMaleAverage = globalAverages.male[metric];
             const globalFemaleAverage = globalAverages.female[metric];
         
@@ -515,16 +507,16 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
         
             svg.attr("width", containerWidth).attr("height", containerHeight);
         
-            // Separate data by gender
+            
             const maleData = countryData.filter(d => +d.sex === 0);
             const femaleData = countryData.filter(d => +d.sex === 1);
         
-            // X-axis range
+            
             const xScale = d3.scaleLinear()
                 .domain(d3.extent(countryData, d => +d[metric]))
                 .range([0, width]);
         
-            // Y-axis frequency
+            
             const histogram = d3.histogram()
                 .domain(xScale.domain())
                 .thresholds(xScale.ticks(10))
@@ -537,7 +529,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .domain([0, d3.max([...maleBins, ...femaleBins], d => d.length)])
                 .range([height, 0]);
         
-            // Draw male bars
+            
             chartGroup.selectAll(".bar-male")
                 .data(maleBins)
                 .enter()
@@ -549,7 +541,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .attr("fill", "purple")
                 .attr("opacity", 0.8);
         
-            // Draw female bars
+            
             chartGroup.selectAll(".bar-female")
                 .data(femaleBins)
                 .enter()
@@ -561,10 +553,10 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .attr("fill", "yellow")
                 .attr("opacity", 0.8);
         
-            // Add gender-specific markers
+            
             addGenderMarkers(chartGroup, xScale, yScale, maleAverage, femaleAverage, metricLabels[metric]);
         
-            // Add axes
+            
             chartGroup.append("g")
                 .attr("transform", `translate(0, ${height})`)
                 .call(d3.axisBottom(xScale).ticks(5));
@@ -572,7 +564,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
             chartGroup.append("g")
                 .call(d3.axisLeft(yScale).ticks(5));
         
-            // Add axis labels
+            
             chartGroup.append("text")
                 .attr("transform", `translate(${width / 2}, ${height + 35})`)
                 .style("text-anchor", "middle")
@@ -586,7 +578,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .style("text-anchor", "middle")
                 .style("fill", "white")
         
-            // Add global male marker
+            
             chartGroup.append("line")
                 .attr("x1", xScale(globalMaleAverage))
                 .attr("x2", xScale(globalMaleAverage))
@@ -605,7 +597,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .attr("font-size", "12px")
                 .text(`M: ${globalMaleAverage.toFixed(1)}`);
         
-            // Add global female marker
+            
             chartGroup.append("line")
                 .attr("x1", xScale(globalFemaleAverage))
                 .attr("x2", xScale(globalFemaleAverage))
@@ -625,7 +617,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
                 .text(`F: ${globalFemaleAverage.toFixed(1)}`);
         });
         
-        // Grade mean plot
+        
         const gradeMeanDiv = d3.select("#bottom-row").append("div")
             .attr("class", "chart-container")
             .style("margin", "0 auto")
@@ -681,7 +673,7 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
     }
 
     function addGenderMarkers(chartGroup, xScale, yScale, maleAvg, femaleAvg, metric) {
-        // Male marker (yellow line)
+        
         chartGroup.append("line")
             .attr("x1", xScale(maleAvg))
             .attr("x2", xScale(maleAvg))
@@ -698,7 +690,6 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
             .attr("font-size", "12px")
             .text(`M: ${maleAvg.toFixed(1)}`);
 
-        // Female marker
         chartGroup.append("line")
             .attr("x1", xScale(femaleAvg))
             .attr("x2", xScale(femaleAvg))
@@ -714,6 +705,5 @@ d3.csv("data/charts/processed_climber_df.csv").then(data => {
             .attr("fill", "white")
             .attr("font-size", "12px")
             .text(`F: ${femaleAvg.toFixed(1)}`);
-                // Female marker
     }
 });
